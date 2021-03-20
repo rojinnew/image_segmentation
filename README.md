@@ -5,6 +5,7 @@ In this project,  Flask framework was used to deploy a segmentation tool that di
 <p align = "center">
 	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/segments2.png">
 </p>
+
 #### Kmeans 
 In this work, all similar points were clustered together and their values were substituted with the mean values which were calculated based on Kmeans clustering.
 <p>
