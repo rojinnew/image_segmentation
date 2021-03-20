@@ -10,15 +10,14 @@ In this project,  Flask framework was used to deploy an image segmentation tool 
 
 #### Kmeans 
 In this work, all similar points were clustered together and their values were substitued with the mean values which were calculated based on Kmeans clustering.
-<p align = "center" width = "200px">
-	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/kmeans.png">
-</p>
 <p>
-To show this we show in both steps of K-means we decrease the cost.
-The objective function given could be written as:
+The objective function for Kmeans clustering could be written as:
 </p>
 <p align = "center">
 	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/f1.png">
+</p>
+<p>
+x<sub>ij</sub> are rgb values.
 </p>
 r<sub>ij</sub> in {0, 1} assigned as 1 ,if only sample i assigned to cluster j. Otherwise it is 0.  At each iteration, in the first step we keep the cluster centers fixed and assign each data point to the closest cluster center. This assignment could be written as:
 <p align = "center">
