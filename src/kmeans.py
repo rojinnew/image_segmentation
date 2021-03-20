@@ -3,7 +3,6 @@ import numpy as np
 from utils import flatten_input, unflatten_input, image_to_mat
 import gc
 
-
 def one_k_means_step(X, k, means):
     """
     one step of K-means 
@@ -46,6 +45,7 @@ def k_cluster(pixel_values, k=3, initial_means=None):
     if initial_means is None:
         initial_means = x[np.random.choice(x.shape[0], k),:]
     max_iter, iter = 10, 0
+
     while True:
         new_means, new_cluster = one_k_means_step(x, k, initial_means)
         if np.array_equal(old_cluster,new_cluster) or iter > max_iter:
