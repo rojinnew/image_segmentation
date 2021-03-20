@@ -3,7 +3,7 @@
 In this project,  Flask framework was used to deploy a segmentation tool that divides an image into a number of components. 
 </p>
 <p align = "center">
-	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/segments2.png" width=600>
+	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/segments2.png" width=400>
 </p>
 
 #### Kmeans 
@@ -12,7 +12,7 @@ In this work, all similar points were clustered together and their values were s
 The objective function for Kmeans clustering could be written as:
 </p>
 <p align = "center">
-	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/f1.png" width=600>
+	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/f1.png" width=700>
 </p>
 <p>
 x<sub>ij</sub> are rgb values.
