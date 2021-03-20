@@ -1,0 +1,85 @@
+<html>  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.body{
+		font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+		font-size: 10px;
+	}
+	#leftphoto{
+		float:left;
+	}		
+	div {
+  		padding-top: 5px;
+  		padding-right: 5px;
+  		padding-bottom: 5px;
+  		padding-left: 5px;
+		width:70%;
+	}
+	.caption {
+  		margin: auto;
+  		width:25%;
+  		float: left;
+  		font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+  		font-size: 16px;
+  		padding-top: 40px;
+	}
+  .image{
+	float:left;
+  	padding-top: 4px;
+  }
+  .header {
+        font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+        overflow: hidden;
+        /*padding: 10px 10px;*/
+        align:left;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 32px;
+        width:75%;
+    }
+  .btn {
+  background-color: #404040	;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  width:25%;
+}
+	</style>
+	<head>  
+    	<title>success</title>  
+    </head>  
+    <body>
+        <div>
+			<form action="/" method="post">
+				<a href="/"><input type="button" value="Upload Another Image"  class="btn"></a> 
+			</form>
+
+        </div>
+        <div>
+				<div class="caption">
+    				Uploaded Image 
+				</div>
+				<div class="image">
+					<img src={{name}}   height="45%" padding="5px">
+				</div>
+        </div>
+        <div>
+				<div class="caption">
+					Processed Image <br> Number of Colors: {{num_clusters}}
+				</div>
+				<div class="image">
+				<img src={{processed_img}}  height="45%" padding="5px">
+				<!--<p> Processed Image <br><br> Number of Colors: {{num_clusters}}</p> !-->
+				</div>
+        </div>
+		<script>
+			function myFunction() {
+  				document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+			}
+		</script>
+    </body>  
+</html>  

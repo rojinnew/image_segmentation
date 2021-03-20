@@ -1,0 +1,73 @@
+<html>  
+<head>
+    
+<title>upload</title>  
+</head>
+<style>
+input[type="file"] {
+    cursor: pointer;
+    font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+    font-size: 16px;
+}
+.one{
+    cursor: pointer;
+    font-size:14px;
+	height:30px;
+    font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+}
+body {
+    font-size:16px;
+    font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+}
+.details{
+    font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+    font-size: 16px;
+    padding-top: 2px;
+	align: center;
+	display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+.header {
+  font-family: Roboto Slab,Montserrat,Roboto,Helvetica,sans-serif;
+  overflow: hidden;
+  /*padding: 10px 10px;*/
+  align:center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+</style>
+<body>
+	<div class="header">
+		<p> Image Segmentation Tool</p>
+	</div>
+
+	<div class="details" >
+			<p>Upload an image (its size should not exceed 200 kb) and set the number of segments.</p> 
+	</div>			
+    <form action = "/success" method = "post" enctype="multipart/form-data">
+        <div align=center style="padding-top:10px;padding-bottom:10px">
+            <input type="file" name="file">
+        </div>
+        <div align=center style="padding-top:10px;padding-bottom:10px">
+                <label for="num_clusters">Enter Number of Segments (or Colors):</label>
+				<input type="text" name="num_clusters" style="width:50px"> 
+        </div>
+		<div align=center>
+            <input type = "submit" value="Submit" class= "one">
+       </div>
+    </form>
+	<div class="details" >
+			<p>A sample color clustering for <a href="https://www.artic.edu/artworks/28560/the-bedroom">The Bedroom</a> by Vincent van Gogh</p> 
+	</div>			
+	<div align="center" >
+			<img src="static/sample.png"  height="500px" padding="5px">
+
+	</div>			
+</body>  
+</html>
