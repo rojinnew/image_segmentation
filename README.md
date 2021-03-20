@@ -28,7 +28,7 @@ The objective function given could be written as:
 
 At each iteration, in the first step we keep the cluster centers fixed and assign each data point to the closest cluster center. This assignment could be written as:
 
-<img src="https://render.githubusercontent.com/render/math?math= r_{ik} =  1, \text{ if }  k = \argmin_{r_{ij} } \| x_i - \mu_j \|^2   \quad\quad : \forall i \in {1 \cdots n} , j \in {1 \cdots k}">
+<img src="https://render.githubusercontent.com/render/math?math=r_{ik}= 1,\text{ if }  k = \argmin_{r_{ij} } \| x_i - \mu_j \|^2   ">
 
 
 
