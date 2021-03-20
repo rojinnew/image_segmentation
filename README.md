@@ -5,7 +5,7 @@ In this project,  Flask framework was used to deploy an image segmentation tool 
 
 #### 
 <p align = "center">
-	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/segments.png">
+	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/segments2.png">
 </p>
 
 #### Kmeans 
