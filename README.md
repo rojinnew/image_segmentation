@@ -14,12 +14,15 @@ In this work, all similar points were clustered together and their values were s
 	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/kmeans.png">
 </p>
 <p>
-Given data <img src="https://render.githubusercontent.com/render/math?math=$x_1,...,x_n"$ (rgb values), we run the Kmeans algorithm.
+To show this we show in both steps of K-means we decrease the cost.
+The objective function given could be written as  
+<img src="https://render.githubusercontent.com/render/math?math="
+\begin{eqnarray*}
+\mathop{\textrm{min}}_{\mu_1,...,\mu_k,S_1,...,S_k}\sum_{j=1}^k\sum_{i=1}^n r_{ij}\|x_i-\mu_j\|_2^2.
+\end{eqnarray*}"
 </p>
 
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-####
 You can access the image segmentation tool using the following link:
 <p align = "left">
 https://colorclustering.herokuapp.com/
