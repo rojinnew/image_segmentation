@@ -14,7 +14,7 @@ In this work, all similar points were clustered together and their values were s
 The objective function for Kmeans clustering could be written as:
 </p>
 <p align = "center">
-	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/f1.png" width = 400>
+	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/f1.png" width = 300>
 </p>
 <p>
 x<sub>ij</sub> are rgb values.
@@ -29,9 +29,9 @@ In the second step we keep r<sub>ij fixed and we minimize the objective function
 	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/f3.png" width=500>
 </p>
 As long as algorithm does not converge (algorithm converges when assignment not change or maximum iteration reached), in both step, we minimized the J.
-
-
+<p>
 You can access the image segmentation tool using the following link:
+</p>
 <p align = "left">
 https://colorclustering.herokuapp.com/
 </p>
