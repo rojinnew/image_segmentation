@@ -23,7 +23,7 @@ The objective function given could be written as:
 <img src="https://render.githubusercontent.com/render/math?math=\textrm{minimum}_{\mu_1,...,\mu_k,S_1,...,S_k}\sum_{j=1}^k\sum_{i=1}^n r_{ij}\|x_i-\mu_j\|_2^2.">
 </p>
 <p>
-<img src="https://render.githubusercontent.com/render/math?math=r_{ij} \in \{0,1\}.$r_{ij} \text{assigned as 1} ,if only sample i assigned to cluster $j$. Otherwise it is 0.">
+<img src="https://render.githubusercontent.com/render/math?math=r_{ij} \in \{0,1\}.$r_{ij} \text{assigned as 1 ,if only sample i assigned to cluster $j$. Otherwise it is 0.}">
 </p>
 
 You can access the image segmentation tool using the following link:
