@@ -1,6 +1,6 @@
 ### Image Segmentation Tool 
 <p align = "justify">
-In this project,  Flask framework was used to deploy a segmentation tool that divides an image into a number of components. 
+This image segmentation tool divides an image into a number of components. 
 </p>
 <p align = "center">
 	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/segments2.png" width=600>
