@@ -22,11 +22,11 @@ r<sub>ij</sub> in {0, 1} assigned as 1 ,if only sample i assigned to cluster j. 
 	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/f2.png" width =600>
 </p>
 We can form clusters S<sub>1</sub> ,..., S<sub>k</sub> using the value assigned to r<sub>ij</sub>.
-In the second steps we keep r<sub>ij</sub> fixed and we minimize the objective function with respect to &mu;<sub>k</sub>.
+In the second step we keep r<sub>ij</sub> fixed and we minimize the objective function with respect to &mu;<sub>k</sub>.
 <p align = "center">
 	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/f3.png" width=500>
 </p>
-As long as algorithm does not converge (algorithm converges when the assignments are not changed or maximum iteration reached), in both step, we minimized the J.
+As long as the algorithm does not converge (algorithm converges when the assignments are not changed or maximum iteration reached), in both steps, we minimized the J.
 <p>
 You can access the image segmentation tool using the following link:
 </p>
