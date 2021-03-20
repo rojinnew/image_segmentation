@@ -23,8 +23,17 @@ The objective function given could be written as:
 <img src="https://render.githubusercontent.com/render/math?math=\textrm{minimum}_{\mu_1,...,\mu_k,S_1,...,S_k}\sum_{j=1}^k\sum_{i=1}^n r_{ij}\|x_i-\mu_j\|_2^2.">
 </p>
 <p>
-<img src="https://render.githubusercontent.com/render/math?math=r_{ij} \in \{0,1\}.r_{ij} \text{assigned as 1 ,if only sample i assigned to cluster $j$. Otherwise it is 0.}">
+<img src="https://render.githubusercontent.com/render/math?math=r_{ij} \in \{0,1\}.r_{ij} \text{assigned as 1 ,if only sample i assigned to cluster j. Otherwise it is 0.}">
 </p>
+
+At each iteration, in the first step we keep the cluster centers fixed and assign each data point to the closest cluster center. This assignment could be written as:
+
+
+<img src="https://render.githubusercontent.com/render/math?math= r_{ik} = \begin{cases} 1, &\text{ if }  k = \displaystyle \argmin_{r_{ij} } \| x_i - \mu_j \|^2   \quad\quad : \forall i \in {1 \cdots n} , j \in {1 \cdots k} \\ 0,              & \text{otherwise} \end{cases}">
+
+
+
+
 
 You can access the image segmentation tool using the following link:
 <p align = "left">
