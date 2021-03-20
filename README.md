@@ -1,6 +1,6 @@
 ### Image Segmentation Tool 
 <p align = "justify">
-This image segmentation tool divides an image into a number of components. 
+Image segmentation tool is a web-based application that divides an image into a given number of components and simplifies the image. 
 </p>
 <p align = "center">
 	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/segments2.png" width=600>
