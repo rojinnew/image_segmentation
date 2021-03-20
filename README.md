@@ -7,6 +7,7 @@ In this project,  Flask framework was used to deploy clustring tool, for image s
 <p align = "center">
 	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/segments.png">
 </p>
+
 #### Kmeans 
 One method for image segmentation is to cluster all similar points together and then substitute their values with the mean value which is based on k-means clustering
 <p align = "center" width = "200px">
