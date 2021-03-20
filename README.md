@@ -17,7 +17,7 @@ In this work, all similar points were clustered together and their values were s
 To show this we show in both steps of K-means we decrease the cost.
 The objective function given could be written as  
 <img src="https://render.githubusercontent.com/render/math?math="
-\mathop{\textrm{min}}_{\mu_1,...,\mu_k,S_1,...,S_k}\sum_{j=1}^k\sum_{i=1}^n r_{ij}\|x_i-\mu_j\|_2^2.
+\mathop{\textrm{min}}_{\mu_1,...,\mu_k,S_1,...,S_k}\sum_{j=1}^k\sum_{i=1}^n r_{ij}\|x_i-\mu_j\|_2^2".
 </p>
 
 
