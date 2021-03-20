@@ -2,7 +2,6 @@
 <p align = "justify">
 In this project,  Flask framework was used to deploy a segmentation tool that divides an image into a number of components. 
 </p>
-#### 
 <p align = "center">
 	<img src = "https://github.com/rojinnew/image_segmentation/blob/master/segments2.png">
 </p>
