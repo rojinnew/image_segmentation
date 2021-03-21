@@ -10,6 +10,7 @@ Image segmentation tool is a web-based application that divides an image into a 
 In this work, all similar points were clustered together and their values were substituted with the mean values which were calculated based on Kmeans clustering.
 <p>
 The objective function for Kmeans clustering could be written as:
+
 </p>
 <p align = "center">
 	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/f1.png" width=300>
