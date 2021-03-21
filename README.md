@@ -20,7 +20,7 @@ x<sub>ij</sub> are rgb values.
 r<sub>ij</sub> in {0, 1} assigned as 1 ,if only sample i assigned to cluster j. Otherwise, it is 0.  At each iteration, in the first step, we keep the cluster centers fixed and assign each data point to the closest cluster center. This assignment could be written as:
 
 <p align = "center">
-	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/f2.png" width="100%">
+	<img src = "https://raw.githubusercontent.com/rojinnew/image_segmentation/master/images/f2.png" width="70%">
 </p>
 
 We can form clusters S<sub>1</sub> ,..., S<sub>k</sub> using the value assigned to r<sub>ij</sub>.
